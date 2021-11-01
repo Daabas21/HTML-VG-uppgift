@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700|Open+Sans:300,400,600,700"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/06ac1a994d.js"></script>
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/flex.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/mediaqueries.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="d-flex justify-content-between align-items-center bg-dark p-4 text-white">
+        <!-- Dropdown Container-->
+        <div class="dropdown border-xs border-radius">
+            <button class="dropbtn d-xs-none"><i class="fa fa-user mr-4"></i>Hassan db</button>
+            <button class="dropbtn d-none d-xs-block"><i class="fa fa-user mr-4"></i></button>
+            <div class="dropdown-content">
+                <a href="#"></i>Hassan db</a>
+                <a href="#">John se</a>
+                <a href="#">Sandra se</a>
+            </div>
+        </div>
+        <!-- TElephone and mail-->
+        <div class="d-flex justify-content-center d-xxs-none">
+            <i class="fa fa-phone mt-2 mr-2"></i>
+            <p class="mr-4 ">555 55 555</p>
+            <i class="far fa-envelope mt-2 mr-2"></i>
+            <p>info@workshop.com</p>
+        </div>
+        <!-- Social media-->
+        <div>
+            <i class="fa fa-facebook-square text-size-lg"></i>
+            <i class="fa fa-twitter-square text-size-lg"></i>
+            <i class="fab fa-instagram-square text-size-lg"></i>
+            <i class="fab fa-pinterest-square text-size-lg"></i>
+        </div>
+
+    </header>
+
+    <!-- Search Bar-->
+    <section class="d-flex justify-content-center  my-4 px-4 pb-4 border-bottom-md d-xs-wrap d-xxs-flex">
+        <div class="d-flex align-items-center mr-4 mb-xxs-4">
+            <img src="images/logo/logo.png" class="logo-width" alt="Logo">
+        </div>
+        <!-- Search container-->
+        <div class="d-flex align-items-center d-xs-none" style="width: 100%;">
+            <form action="#" class=" wrapper " >
+                
+                <button type="submit" class="bg-dark-transparent border-radius border-none search-button"><i class="fa fa-search "></i></button>
+            
+                <input type="text" placeholder="Search product.." name="search" class="search">
+            </form>
+        </div>
+
+        <!--Icons-->
+        <div class="d-flex justify-content-around mb-4">
+            <!-- Hidden menu-->
+            <a href="#" class="d-flex flex-column align-items-center text-decoration-none  position-relative d-none d-xs-block">
+                <div class="d-flex align-items-center justify-content-center p-4 ">
+                    <i class="fas fa-bars text-dark text-size-lg"></i>
+                    <span class=" text-dark text-size-xs position-absolut icon-def">menu</span>
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative ">
+                <div class="d-flex align-items-center justify-content-center  p-4">
+                    <i class="fas fa-heart text-dark text-size-lg"></i>
+                </div>
+                <span
+                    class=" text-white  position-absolut icon-badge circle bg-green border-small-white text-size-xxs">3</span>
+                <span class=" text-dark text-size-xs position-absolut icon-def">Fav</span>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative  mx-6">
+                <div class="d-flex align-items-center justify-content-center  p-4">
+                    <i class="fas fa-shopping-cart text-dark text-size-lg"></i>
+                </div>
+                <span
+                    class=" text-white  position-absolut icon-badge circle bg-green border-small-white text-size-xxs">3</span>
+                <span class=" text-dark text-size-xs position-absolut icon-def">$1453.2</span>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+                <div class="d-flex align-items-center justify-content-center  p-4">
+                    <i class="fas fa-address-book text-dark text-size-lg"></i>
+                </div>
+                <span
+                    class=" text-white  position-absolut icon-badge circle bg-green border-small-white text-size-xxs">3</span>
+                <span class=" text-dark text-size-xs position-absolut icon-def">$0.00</span>
+            </a>
+
+        </div>
+
+        <!-- Search container  xs-->
+        <div class="d-flex align-items-center d-none d-xs-search" style="width: 100%;">
+            <form action="#" class=" wrapper " >
+                
+                <button type="submit" class="bg-dark-transparent border-radius border-none search-button"><i class="fa fa-search "></i></button>
+            
+                <input type="text" placeholder="Search product.." name="search" class="search">
+            </form>
+        </div>
+
+    </section>
+
+    <section class="d-flex mt-2 flex-sm-column">
+        <!-- Categories-->
+        <div class="d-flex flex-column border-xs-darktransparent border-radius catg-width ml-4 mt-6 mr-sm-4">
+            <ul class="">
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-hdd-o text-info pr-2 ml-4"></i>Computer & Accessories</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-television text-info pr-2 ml-4"></i>TV, Video & Audio</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-mobile text-info pr-2 ml-4"></i>Smartphones & Tablets</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-camera-retro text-info pr-2 ml-4"></i>Photo Cameras</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-video text-info pr-2 ml-4"></i>Video Cameras</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-headphones text-info pr-2 ml-4"></i>Headphones</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-clock text-info pr-2 ml-4"></i>Wearable Electronics</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-picture-o text-info pr-2 ml-4"></i>Printers & Ink</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-crosshairs text-info pr-2 ml-4"></i>Video Games</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-volume-down text-info pr-2 ml-4"></i>Speakers & Home Music</a>
+                </li>
+                <li class="py-4 pr-4 border-bottom-md">
+                    <a href="#" class="text-decoration-none text-dark "><i class="fa fa-server text-info pr-2 ml-4"></i>HDD / SSD Data Storage</a>
+                </li>
+            </ul>  
+        </div>
+        
+        <!-- Devices Cards section -->
+        <section class=" cards-width">
+            <!-- container -->
+            <div class="d-flex flex-wrap justify-content-left mx-auto mt-2">
+                <!-- card container-->
+                <div class="d-flex position-relative overflow-hidden border-xs-darktransparent border-radius card-width card-height m-4 pb-4 flex-xs-column">
+                    <img src="images/products/AsusLaptop.jpg" class="img-lg-width img-xs-width" alt="Asus laptop">
+                    <div class="d-flex flex-column  p-6">
+                        <h2 class=""> Surface Book 14 in. </h2>
+                        <p class="text-dark mb-4">computers & Accessories</p>
+                        <div class="mb-4 text-bold">$1251.5</div>
+                        <div class="mb-4 text-black">sum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor incididun</div>
+                    </div>
+                    <a href="#" class="position-absolut position-cart cart-xs-position cart-xxs-position text-dark-light m-6 p-4">
+                        <i class="fa fa-cart-plus"></i>
+                    </a>
+                    <div class="d-flex align-items-center position-absolut position-star position-xxs-star text-dark-light m-6 p-4">4.5
+                        <i class="fa fa-star-o ml-2"></i>
+                    </div>
+                    <a href="#" class="position-absolut position-heart text-dark-light m-6 p-4">
+                        <i class="far fa-heart"></i>
+                    </a>
+    
+                </div>
+                <!-- card container-->
+                <div class="d-flex position-relative overflow-hidden border-xs-darktransparent border-radius card-width card-height m-4 pb-4 flex-xs-column">
+                    <img src="images/products/SurfaceBook.jpg" class="img-lg-width img-xs-width" alt="Asus laptop">
+                    <div class="d-flex flex-column  p-6">
+                        <h2 class=""> Surface Book 2 14 in. </h2>
+                        <p class="text-dark mb-4">computers & Accessories</p>
+                        <div class="mb-4 text-bold">$125.5</div>
+                        <div class="mb-4 text-black">sum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor incididun</div>
+                    </div>
+                    <a href="#" class="position-absolut position-cart cart-xs-position cart-xxs-position text-dark-light m-6 p-4">
+                        <i class="fa fa-cart-plus"></i>
+                    </a>
+                    <div class="d-flex align-items-center position-absolut position-star position-xxs-star text-dark-light m-6 p-4">4
+                        <i class="fa fa-star-o ml-2"></i>
+                    </div>
+                    <a href="#" class="position-absolut position-heart text-dark-light m-6 p-4">
+                        <i class="far fa-heart"></i>
+                    </a>
+    
+                </div>
+                <!-- card container-->
+                <div class="d-flex position-relative overflow-hidden border-xs-darktransparent border-radius card-width card-height m-4 pb-4 flex-xs-column">
+                    <img src="images/products/MSMouse.jpg" class="img-lg-width img-xs-width" alt="Asus laptop">
+                    <div class="d-flex flex-column  p-6">
+                        <h2 class=""> Mouse </h2>
+                        <p class="text-dark mb-4">computers & Accessories</p>
+                        <div class="mb-4 text-bold">$55</div>
+                        <div class="mb-4 text-black">sum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor incididun</div>
+                    </div>
+                    <a href="#" class="position-absolut position-cart  cart-xs-position cart-xxs-position text-dark-light m-6 p-4">
+                        <i class="fa fa-cart-plus"></i>
+                    </a>
+                    <div class="d-flex align-items-center position-absolut position-star position-xxs-star text-dark-light m-6 p-4">4.3
+                        <i class="fa fa-star-o ml-2"></i>
+                    </div>
+                    <a href="#" class="position-absolut position-heart text-dark-light m-6 p-4">
+                        <i class="far fa-heart"></i>
+                    </a>
+    
+                </div>
+                <!-- card container-->
+                <div class="d-flex position-relative overflow-hidden border-xs-darktransparent border-radius card-width card-height m-4 pb-4 flex-xs-column">
+                    <img src="images/products/iMac.jpg" class="img-lg-width img-xs-width" alt="Asus laptop">
+                    <div class="d-flex flex-column  p-6">
+                        <h2 class=""> Surface Book 14 in. </h2>
+                        <p class="text-dark mb-4">computers & Accessories</p>
+                        <div class="mb-4 text-bold">$2251.5</div>
+                        <div class="mb-4 text-black">sum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor incididun</div>
+                    </div>
+                    <a href="#" class="position-absolut position-cart cart-xs-position cart-xxs-position text-dark-light m-6 p-4">
+                        <i class="fa fa-cart-plus"></i>
+                    </a>
+                    <div class="d-flex align-items-center position-absolut position-star position-xxs-star text-dark-light m-6 p-4">5
+                        <i class="fa fa-star-o ml-2"></i>
+                    </div>
+                    <a href="#" class="position-absolut position-heart text-dark-light  m-6 p-4">
+                        <i class="fas fa-heart"></i>
+                    </a>
+                    <span class="position-absolut bg-green lh-lg text-bold text-size-md text-white p-2">10% off</span>
+    
+                </div>
+                <!-- card container-->
+                <div class="d-flex position-relative overflow-hidden border-xs-darktransparent border-radius card-width card-height m-4 pb-4 flex-xs-column">
+                    <img src="images/products/14.jpg" class="img-lg-width img-xs-width" alt="Asus laptop">
+                    <div class="d-flex flex-column  p-6">
+                        <h2 class=""> Sony Camera </h2>
+                        <p class="text-dark mb-4">computers & Accessories</p>
+                        <div class="mb-4 text-bold">$1500</div>
+                        <div class="mb-4 text-black">sum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor incididun</div>
+                    </div>
+                    <a href="#" class="position-absolut position-cart cart-xs-position cart-xxs-position text-dark-light m-6 p-4">
+                        <i class="fa fa-cart-plus"></i>
+                    </a>
+                    <div class="d-flex align-items-center position-absolut position-star position-xxs-star text-dark-light m-6 p-4">4.7
+                        <i class="fa fa-star-o ml-2"></i>
+                    </div>
+                    <a href="#" class="position-absolut position-heart text-dark-light m-6 p-4">
+                        <i class="far fa-heart"></i>
+                    </a>
+    
+                </div>
+       
+    
+            </div>
+        </section>
+        
+
+    </section>
+
+</body>
+
+</html>
