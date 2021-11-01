@@ -9,6 +9,9 @@
     html {
         font-size: 50%;
     }
+    .catg-maxheight {
+        max-height: 406px !important;
+    }
 }
 
 @media screen and (max-width: 43.75em) {

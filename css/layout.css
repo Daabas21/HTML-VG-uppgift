@@ -1,5 +1,6 @@
 /***** Height colored bar*******/
 .bar-height{height: .3rem;}
+.catg-maxheight {max-height: 506px;}
 
 /****** Width *******/
 .max-width{ max-width: 192rem;}
